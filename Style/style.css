@@ -155,9 +155,13 @@ header{
   margin: auto;
 
 }
-.search{
-  width: ;
+.fa-solid{
+  cursor: pointer;
 }
+.search{
+  height: 25px;
+}
+
 .menu-footer{
   display: none;
 }

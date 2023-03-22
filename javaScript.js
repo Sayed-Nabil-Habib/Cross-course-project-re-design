@@ -14,3 +14,5 @@ searchInput.addEventListener("input", () => {
     }
   }
 });
+
+// onclick show the search bar//
