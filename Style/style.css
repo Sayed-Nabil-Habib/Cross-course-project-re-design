@@ -85,9 +85,10 @@ header{
   color: var(--font-color);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+ justify-content: center;
   flex-wrap: wrap;
   font-weight: var(--mobile-version-font-weight);
+  
 }
 .movie-container{
   display: var(--display-flex);
@@ -115,6 +116,10 @@ header{
   flex-direction: column;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+ 
+}
+.slider ::-webkit-scrollbar {
+  display: none;
 }
 .slide {
   width: auto;
@@ -150,6 +155,9 @@ header{
   margin: auto;
 
 }
+.search{
+  width: ;
+}
 .menu-footer{
   display: none;
 }
@@ -174,3 +182,19 @@ header{
   }
 
 }
+
+
+
+@media screen and (min-width:1150px) and (max-width: 20000px) {
+
+  .container{
+  
+    justify-content: flex-start;
+   
+   
+  
+    
+  }
+}
+
+
