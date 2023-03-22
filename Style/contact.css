@@ -40,24 +40,8 @@ header{
 label{
   display: none;
 }
-nav{
-  max-width: 800px;
-  margin: auto;
-  margin-top: 10px;
-  width: 100%;
-}
-.search-bar{
-  display: none;
-}
-.header-logo{
-  width: 100%;
-}
-.mobile-logo img{
-  width:90px;
-  margin: auto;
-  display: flex;
-  padding-top:5px;
-}
+
+
 .all-container{
   max-width: 800px;
   margin: auto;
@@ -217,21 +201,7 @@ form button{
 
 @media screen and (min-width: 800px) {
   
-  .navigation{
-    max-height: 100px;
-    background-color: white;
-  }
-
-  nav ul li{
-    margin-bottom: 20px;
-  }
   
-  nav ul li a{
-    color: black;
-  }
-  .submenu{
-    background-color: white;
-  }
   header{
   max-width: 1920px;
   margin: auto;
@@ -249,14 +219,10 @@ label{
   display: none;
 }
 .logo-white{
-  display: none;
-}
-.logo-orginal{
   display: block;
 }
-.submenu{
-  line-height: 2;
-}
+
+
 .main-content{
   width: 400px;
   margin: var(--margin);
@@ -272,18 +238,5 @@ label{
   max-width: 420px;
   max-height: 530px;
 }
-nav ul input{
-  height: 20px;
-  border: 0.5px solid;
-  border-radius: var(--border-radius);
-  text-align: left;
-  padding: 0px 5px;
-}
-.search-bar-container{
-  margin: 0px 5px;
-}
-.search-bar{
-  display: flex;
-  flex-direction: row;
-}
+
 }

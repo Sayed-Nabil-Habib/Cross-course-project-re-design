@@ -35,24 +35,7 @@ header{
   width: 100%;
   position: relative;
 }
-nav{
-  max-width: 800px;
-  margin: auto;
-  margin-top: 10px;
-  width: 100%;
-}
-.search-bar{
-  display: none;
-}
-.mobile-logo img{
-  width:90px;
-  margin: auto;
-  display: flex;
-  padding-top:5px;
-}
-.logo-orginal{
-  display: none;
-}
+
 ul{
   display: flex;
   flex-direction: row;
@@ -61,42 +44,6 @@ ul{
   list-style-type: none;
   margin: auto;
 }
-
-.menu{
-  position: relative;
-}
-
-ul li a{
-  color: var(--font-color);
-  padding: 10px;
-  font-weight: 300;
-  font-size: var(--mobile-menu-font-size);
-  transition-duration: var(--transition-duration);
-  text-decoration: none;
-}
-ul li a:hover{
-  font-weight: 600;
-}
-.active{
-  text-decoration: underline;
-}
-.submenu{
-  position: absolute;
-  color: var(--font-color);
-  font-weight: 100;
-  width: 140px;
-  display: none;
-  background-color: var(--background-color-for-submenu);
-  line-height: 3;
-  padding-top: var(--padding-top-submenu);
-  padding-left:var(--padding-left-submenu);
-  cursor: pointer;
-}
-
-.menu li:hover > .submenu {
-  display: block;
-}
-
 .header-text{
   color: var(--font-color);
   align-items: center;
@@ -196,22 +143,7 @@ ul li a:hover{
 /*media-screen-start-here*/
 @media screen and (min-width: 800px) {
   
-  .navigation{
-    max-height: 100px;
-    background-color: white;
-  }
-
-  nav ul li{
-    margin-bottom: 20px;
-  }
   
-  nav ul li a{
-    color: black;
-  
-  }
-  .submenu{
-    background-color: white;
-  }
   header{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/intense.jpeg");
     background-position: center;
@@ -230,14 +162,10 @@ ul li a:hover{
     display: none;
   }
   .logo-white{
-    display: none;
-  }
-  .logo-orginal{
     display: block;
   }
-  .submenu{
-    line-height: 2;
-  }
+  
+  
   .slider {
     
     max-width: 800px;
@@ -245,19 +173,6 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     }
-    nav ul input{
-      height: 20px;
-      border: 0.5px solid;
-      border-radius: var(--border-radius);
-      text-align: left;
-      padding: 0px 5px;
-    }
-    .search-bar-container{
-      margin: 0px 5px;
-    }
-    .search-bar{
-      display: flex;
-      flex-direction: row;
-    }
+   
 }
   

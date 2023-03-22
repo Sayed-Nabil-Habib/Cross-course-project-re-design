@@ -36,69 +36,6 @@ header{
   width: 100%;
   position: relative;
 }
-nav{
-  max-width: 800px;
-  margin: auto;
-  margin-top: 10px;
-  width: 100%;
-}
-.search-bar{
-  display: none;
-}
-.mobile-logo img{
-  width:90px;
-  margin: auto;
-  display: flex;
-  padding-top:5px;
-}
-.logo-orginal{
-  display: none;
-}
-ul{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  flex-wrap: wrap;
-  list-style-type: none;
-  margin: auto;
-}
-
-.menu{
-  position: relative;
-}
-
-ul li a{
-  color: var(--font-color);
-  padding: 10px;
-  font-weight: 300;
-  font-size: var(--mobile-menu-font-size);
-  text-decoration: none;
-  transition-duration: var(--transition-duration);
-  
-}
-ul li a:hover{
-  font-weight: 600;
-
-}
-.active{
-  text-decoration: underline;
-}
-.submenu{
-  position: absolute;
-  color: var(--font-color);
-  font-weight: 100;
-  width: 140px;
-  display: none;
-  background-color: var(--background-color-for-submenu);
-  line-height: 3;
-  padding-top: var(--padding-top-submenu);
-  padding-left: var(--padding-left-submenu);
-  cursor: pointer;
-}
-
-.menu li:hover > .submenu {
-  display: block;
-}
 
 /*main start here*/
 .main{
@@ -184,54 +121,20 @@ ul li a:hover{
 /*media-screen-start-here*/
 @media screen and (min-width: 800px) {
   
-  .navigation{
-    max-height: 100px;
-    background-color: white;
-  }
-
-  nav ul li{
-    margin-bottom: 20px;
-  }
-  
-  nav ul li a{
-    color: black;
-  
-  }
-  .submenu{
-    background-color: white;
-  }
+ 
   header{
   max-width: 1920px;
   margin: auto;
 }
-label{
-  display: none;
-}
+
 
 .menu-footer{
   display: none;
 }
 .logo-white{
-  display: none;
-}
-.logo-orginal{
   display: block;
 }
-.submenu{
-  line-height: 2;
-}
-nav ul input{
-  height: 20px;
-  border: 0.5px solid;
-  border-radius: var(--border-radius);
-  text-align: left;
-  padding: 0px 5px;
-}
-.search-bar-container{
-  margin: 0px 5px;
-}
-.search-bar{
-  display: flex;
-  flex-direction: row;
-}
+
+
+
 }
