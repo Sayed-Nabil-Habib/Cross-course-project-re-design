@@ -35,7 +35,16 @@ header{
   width: 100%;
   position: relative;
 }
-
+.fa-solid{
+  display: none;
+}
+label{
+  display: none;
+}
+.search{
+  height: 25px;
+  display: none;
+}
 ul{
   display: flex;
   flex-direction: row;
@@ -153,6 +162,9 @@ ul{
   label{
     display: none;
   }
+ .search{
+  display: block;
+ }
   .container{
     max-width: 920px;
     margin: auto;

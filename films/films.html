@@ -42,7 +42,9 @@
    
     <nav>
       <ul class="menu">
-      
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="../films/films.html">Films/Series</a></li>
+        
            <li><a class="drop-down" href="#films">More<i class="fa-solid fa-caret-down"></i></a>
         
         <ul class="submenu">
@@ -53,13 +55,15 @@
           
         </ul>
        </li>
-       <li><a href="../index.html">Home</a></li>
-       <li><a class="active" href="../films/films.html">Films/Series</a></li>
        
-       <li><div class="search-bar search-bar-container">
-        <label for="search-bar">search</label>
-        <input type="text" id="search-bar" placeholder="search">
-        <div class="search-bar-container"><i class="fa-solid fa-magnifying-glass"></i></div></div></li>
+       
+       <li>
+        <div class="search-bar-container">
+          <label for="search-input">Search</label>
+          <input id="search-input" class="search" placeholder="Search Movie..." />
+          <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </li>
     </ul>
     </nav>
     
@@ -77,57 +81,74 @@
   </header>
   
   <!--Main strt here-->
-    <div class="container slider">
-      <div class="movie-container slide">
-        <a href="../check-out-pages/movie-info.html"><img src="../images/Square_Eyes_Cover7.jpeg" alt="Batman-movie-poster"></a>
-        <p>Batman 9$</p>
-      </div>
-
-      <div class="movie-container slide">
-        <a href="../check-out-pages/movie-info.html"><img  src="../images/Square_Eyes_Cover8.jpeg" alt="Toy story 4-movie-poster"></a>
-        <p>Toy story 4 9$</p>
-      </div>
-
-      <div class="movie-container slide">
-        <a href="../check-out-pages/movie-info.html"><img  src="../images/Square_Eyes_Cover6.jpeg" alt="Adams family-movie-poster"></a>
-        <p>Adams family 9$</p>
-      </div>
-      
-      <div class="movie-container slide">
-        <a href="../check-out-pages/movie-info.html"><img  src="../images/Square_Eyes_Cover8.jpeg" alt="Toy story 4-movie-poster"></a>
-        <p>Toy story 4 9$</p>
-      </div>
-
-      <div class="movie-container slide">
-        <img  src="../images/Square_Eyes_Cover8.jpeg" alt="Toy story 4-movie-poster">
-        <p>Toy story 4 9$</p>
-      </div>
-
-      <div class="movie-container slide">
-        <img  src="../images/Square_Eyes_Cover7.jpeg" alt="Batman-movie-poster">
-        <p>Batman 9$</p>
-      </div>
-      <div class="movie-container slide">
-        <img  src="../images/Square_Eyes_Cover2.jpeg" alt="Gozilla-movie-poster">
-        <p>Godzilla 9$</p>
-      </div>
-
-      <div class="movie-container slide">
-        <img  src="../images/Square_Eyes_Cover1.jpeg" alt="Hab and shaw-movie-poster">
-        <p>Hobb  &amp; shaw 4 9$</p>
-      </div>
-      <div class="movie-container slide">
-        <img  src="../images/Square_Eyes_Cover4.jpeg" alt="Scream-movie-poster">
-        <p>Scream 9$</p>
-      </div>
-      <div class="movie-container slide">
-        <img  src="../images/Square_Eyes_Cover3.jpeg" alt="Hollywood story-movie-poster">
-        <p>Holleyood 4 9$</p>
-      </div>
-     
-
+  <div   id="movie-container"  class="container slider">
+ 
+    <div class="movie-container  movie slide">
+      <a href="films/films.html"><img src="../images/Square_Eyes_Cover1.jpeg" alt="Hobbs &#38; Shaw-movie-poster"></a>
+      <p>Hobbs &#38; Shaw 9.9$</p>
     </div>
 
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover2.jpeg" alt="Godzilla-movie-poster"></a>
+      <p>Godzilla 8.5$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"> <img  src="../images/Square_Eyes_Cover3.jpeg" alt="Toy Story 4-movie-poster"></a>
+      <p>Toy Story 4 7.9$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover4.jpeg" alt="scream-movie-poster"></a>
+      <p>Scream 8.9$</p>
+    </div>
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover4.jpeg" alt="scream-movie-poster"></a>
+      <p>Scream 8.9$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover2.jpeg" alt="Godzilla-movie-poster"></a>
+      <p>Godzilla 8.5$</p>
+    </div>
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover4.jpeg" alt="scream-movie-poster"></a>
+      <p>Scream 8.9$</p>
+    </div>
+    <div class="movie-container  movie slide">
+      <a href="films/films.html"><img src="../images/Square_Eyes_Cover1.jpeg" alt="Hobbs &#38; Shaw-movie-poster"></a>
+      <p>Hobbs &#38; Shaw 9.9$</p>
+    </div>
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover2.jpeg" alt="Godzilla-movie-poster"></a>
+      <p>Godzilla 8.5$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover4.jpeg" alt="scream-movie-poster"></a>
+      <p>Scream 8.9$</p>
+    </div>
+
+    <div class="movie-container  movie slide">
+      <a href="films/films.html"><img src="../images/Square_Eyes_Cover1.jpeg" alt="Hobbs &#38; Shaw-movie-poster"></a>
+      <p>Hobbs &#38; Shaw 9.9$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover4.jpeg" alt="scream-movie-poster"></a>
+      <p>Scream 8.9$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover2.jpeg" alt="Godzilla-movie-poster"></a>
+      <p>Godzilla 8.5$</p>
+    </div>
+
+    <div class="movie-container movie slide">
+      <a href="films/films.html"><img  src="../images/Square_Eyes_Cover4.jpeg" alt="scream-movie-poster"></a>
+      <p>Scream 8.9$</p>
+    </div>
+</div>
 
  <!--footer-->
 
@@ -135,5 +156,6 @@
   <a href="films.html"><img src="../materials/up-arrow.png" alt="up-arrow-icon"></a>
  </div>
   
+ <script src="../javaScript.js"></script>
 </body>
 </html>

@@ -43,6 +43,13 @@ header{
   margin-top: 250px;
   line-height: 0.1;
 }
+.fa-solid{
+  display: none;
+}
+.search{
+  height: 25px;
+  display: none;
+}
 .header-text h1{
   font-weight: 800;
 }
@@ -50,7 +57,9 @@ header{
 .header-text p{
   font-weight: var(--mobile-version-font-weight);
 }
-
+label{
+  display: none;
+}
 .hero-btn{
   background-color: white;
   max-width: 90px;
@@ -155,11 +164,9 @@ header{
   margin: auto;
 
 }
-.fa-solid{
-  cursor: pointer;
-}
 .search{
   height: 25px;
+  display: block;
 }
 
 .menu-footer{
@@ -185,6 +192,12 @@ header{
   flex-direction: row;
   }
 
+}
+.hero-btn{
+
+  margin-top: -10px;
+  
+ 
 }
 
 
