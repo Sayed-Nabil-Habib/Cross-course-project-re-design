@@ -91,6 +91,7 @@ button{
 }
 .contact-details{
   text-align:start;
+  margin: 20px;
 }
 .contact-details > div {
   font-weight: 700;

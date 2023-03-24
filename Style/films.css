@@ -80,15 +80,16 @@ ul{
   justify-content: center;
   padding: 8px;
   margin: auto;
-  background-color: #E50914;
+  background-color:  rgb(255, 0, 0);
   max-width: 160px;
   max-height: 40px;
   border-radius: var(--btn-brd-radius);
   transition-duration: var(--transition-duration);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 .hero-btn:hover{
-  box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
+  background-color: #333;
 }
   
 .hero-btn a{
@@ -109,6 +110,7 @@ ul{
   font-weight: var(--mobile-version-font-weight);
 }
 .movie-container{
+  
   display: var(--display-flex);
   text-align:var(--text-align);
   margin: 10px;
@@ -180,10 +182,11 @@ ul{
   
   .slider {
     
-    max-width: 800px;
+    max-width: 1920px;
     height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     }
    
 }

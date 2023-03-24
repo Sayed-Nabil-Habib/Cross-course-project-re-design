@@ -82,8 +82,8 @@ header{
   align-items: center;
   justify-content: center;
   padding: 8px;
-  margin: auto;
-  background-color: #E50914;
+  margin: auto; 
+  background-color:  rgb(255, 0, 0);
   width: 160px;
   height: 40px;
   border-radius: var(--btn-brd-radius);
@@ -91,7 +91,7 @@ header{
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .add-to-card:hover{
-  box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
+  background-color: #333;
 }
 .add-to-card a{
   text-decoration: none;
