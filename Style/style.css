@@ -48,7 +48,8 @@ header{
 }
 .search{
   height: 25px;
-  display: none;
+  display: block;
+  max-width: 70px;
 }
 .header-text h1{
   font-weight: 800;
@@ -167,6 +168,8 @@ label{
 .search{
   height: 25px;
   display: block;
+  display: block;
+  max-width: 200px;
 }
 
 .menu-footer{
