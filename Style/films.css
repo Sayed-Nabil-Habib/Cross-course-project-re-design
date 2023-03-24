@@ -43,7 +43,8 @@ label{
 }
 .search{
   height: 25px;
-  display: none;
+  display: block;
+  max-width: 70px;
 }
 ul{
   display: flex;
