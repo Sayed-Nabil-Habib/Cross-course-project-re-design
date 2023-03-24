@@ -162,6 +162,12 @@ ul{
     max-width: 1920px;
     margin: auto;
   }
+  .search{
+    height: 25px;
+    display: block;
+    display: block;
+    max-width: 200px;
+  }
   label{
     display: none;
   }
