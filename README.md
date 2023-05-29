@@ -1,42 +1,70 @@
-# HTML-and-CSS-course-assignment
+# Your project title
 
-# Square-Eyes
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-The website should emphasise that you can easily discover or browse through different categories to find films.
+A simple overview of the use/purpose of the project.
 
 ## Description
 
-A video streaming website where you can purchase high-quality videos directly from the people who make them. The users of this website want to purchase videos right away, which will allow them to watch it online.
+Add a more detailed description of what your project entails and set out to do.
+
+You can add some bullet points if you'd like to:
+
+- List item 1
+- List item 2
+- List item 3
+
+## Built With
+
+You can list a the tech stack that you've used over here
+
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com)
 
 ## Getting Started
 
-### Dependencies
-
-The website works on every different machine, both big screens and smaller screens.
-
 ### Installing
 
-No need for any kind of installing
-users need only an internet connection in order to reach the website
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-### Executing program
+1. Clone the repo:
 
-To reach the website,please click on the link below
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-- https://fanciful-praline-ea7ae3.netlify.app/index.html
+2. Install the dependencies:
 
-## Help
+```
+npm install
+```
 
-you can find contact and about under link (More), I have changed the name for this section from Categoires, since it was a wrong naming for this part, and a feedback from teacher helped to find out the mistake, therefore I have changed the name.
+### Running
 
-## Authors
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
-Sayed Nabil Habib nabilhabib2015@yahoo.com
+To run the app, run the following commands:
 
-## Design-Prototype
+```bash
+npm run start
+```
 
-Mobile version link:
-https://www.figma.com/proto/vOCS2jB72RPFHwIkR84loZ/Untitled?page-id=0%3A1&node-id=1%3A2&viewport=668%2C382%2C0.32&scaling=scale-down&starting-point-node-id=16%3A197
+## Contributing
 
-Desktop version:
-https://www.figma.com/proto/sTOinOIm9jrxWCXF7aJ2cs/Course-assignment?page-id=0%3A1&node-id=1%3A2&viewport=-1030%2C310%2C0.51&scaling=min-zoom&starting-point-node-id=1%3A2
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+[My Twitter page](www.twitter.com)
+
+[My LinkedIn page](www.linkedin.com)
+
+## License
+
+You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+
+## Acknowledgments
+
+This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
